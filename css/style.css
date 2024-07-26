@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap');
+
+:root {
+  /* Colours */
+  /* top lh corner */
+  --kobi: #E8ABB9;
+  --cod-gray: #191516;
+  --cannon-pink: #9A4B63;
+  --shadow: #8a654f;
+  --plum: #7F5483;
+  --cream: #FAE8E0;
+  --sensible: #B6E2D3;
+  --hat-green: #88d434;
+  --gray-lilac: #9392c7;
+
+  --text-1: "Montserrat", sans-serif;
+  --text-2: "Special Elite", system-ui;
+}
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Check to see if I need to add the <uniquifier> after .montserrat or if it's okay as is */
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.phoenix-logo {
+  font-size: xx-large;
+  margin-right: -20px;
+}
+
+#phoenix-logo-id {
+  color: var(--shadow);
+}
+
+body {
+  background-color: var(--cod-gray);
+  font-family: var(--text-1);
+  color: var(--cream)
+}
+
+.backgroundcolor {
+  background-color: var(--cod-gray);
+}
+
+h1 {
+  color: var(--shadow);
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+p {
+  font-weight: 250;
+}
+
+.logo-section {
+  display: flex;
+  font-family: var(--text-2);
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  text-decoration: none;
+
+}
+
+.navlink-wrapper {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: var(--cream);
+}
+
+.navlink .resume-button {
+  text-decoration: none;
+  font-size: .9rem;
+  padding: .25rem .5rem;
+  display: inline-block;
+  border-radius: .2rem;
+  background-color: var(--kobi);
+  color: var(--cod-gray);
+}
+
+.navlink:hover {
+  background-color: ;
+  font-size: ;
+}
+
+.burger {
+  display: none;
+}
+
+.hero-section {
+  font-family: var(--text-1);
+  font-weight: 200;
+  /* background-color: var(--cod-gray); */
+  padding: 5rem;
+}
+
+.my-name-is {
+  color: var(--cream);
+  font-family: var(--text-2);
+}
+
+.hero-section h1 {
+  color: var(--shadow);
+}
+
+.hero-section h2 {
+  color: var(--gray-lilac);
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-section {
+  background-color: var(--cannon-pink);
+  padding: 5rem;
+}
+.projects-p {
+  font-size: x-large;
+  font-weight: 300;
+  font-family: var(--text-2);
+}
+
+.project-section-card-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-container {
+  border: 5px solid white;
+}
+
+.project-cards {
+  align-items: center;
+}
+
+.project-title {
+font-family: var(--text-1);
+font-size: larger;
+text-align: center;
+color: var(--cream);
+}
+
+.project-button {
+  background-color: var(--cod-gray);
+  color: var(--cream);
+  border: none;
+  font-family: var(--text-2);
+  padding: .5rem;
+  border-radius: .5rem;
+  margin-top: 1.5rem;
+  
+}
+
+#description-id {
+text-align: center;
+padding: 2rem;
+}
+
+a#project-button-id.project-button {
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-left: 35%;
+}
+
+.contact-section {
+  background-color: var(--shadow);
+  font-family: var(--text-1);
+  padding: 5rem;
+  text-align: center;
+
+}
+
+.contact-section h4 {
+  font-family: var(--text-2);
+  font-weight: 200;
+  font-size: x-large;
+}
+
+.contact-p {
+  padding: 3rem;
+  font-weight: 400;
+  font-size: large;
+}
+
+.contact-button {
+  background-color: var(--kobi);
+  color: var(--cod-gray);
+  border: none;
+  font-family: var(--text-2);
+  padding: .5rem;
+  border-radius: .5rem;
+  margin-top: 1.5rem;
+
+}
+
+#name {
+  width: 25rem;
+}
+
+#email {
+  width: 25rem;
+}
+
+#comment {
+  width: 25rem;
+}
+
+
+.about-links {
+  color: var(--hat-green);
+}
+
+.about-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#about-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 6rem;
+  padding: 5rem;
+}
+
+.about-h1 {
+  font-family: var(--text-2);
+}
+
+.about-descriptions {
+  display: flex;
+  padding: 5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+i {
+  color: var(--gray-lilac);
+}
+
+.button {
+  border-radius: .2rem;
+  background-color: var(--kobi);
+  color: var(--cod-gray);
+  font-family: var(--text-2);
+  padding: .5rem;
+
+}
+
+.showColors {
+  display: none;
+}
+
+.color-button {
+  border-radius: .2rem;
+  background-color: var(--kobi);
+  color: var(--cod-gray);
+  font-family: var(--text-2);
+  padding: .5rem;
+  border: none;
+  align-items: center;
+}
+
+.js-h2 {
+  text-align: center;
+}
+
+.js-button {
+ display: flex;
+ justify-content: center;
+}
+
+.js-section-div {
+display: flex;
+justify-content: center;
+}
+
+
+.js-submit-button {
+  border-radius: .2rem;
+  background-color: var(--kobi);
+  color: var(--cod-gray);
+  font-family: var(--text-2);
+  padding: .5rem;
+  border: none;
+  align-items: center;
+}
+
+#js-form {
+  height: 200px;
+  width: 200px;
+  padding: 5rem;
+}
+#color-form {
+  text-align: center;
+}
+
+.user-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-info-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form-section {
+ text-align: center;
+ align-items: center;
+}
+
+.contact-hero {
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.contact-submit {
+  border-radius: .2rem;
+  background-color: var(--kobi);
+  color: var(--cod-gray);
+  font-family: var(--text-2);
+  padding: .5rem;
+  border: none;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+input {
+  width:
+}
+
+.footer-color {
+  background-color: var(--shadow);
+}
+
+.footer-link {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.footer-ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.footer-p {
+  font-family: var(--text-2);
+  font-size: x-large;
+  text-align: center;
+  padding-top: 3rem;
+
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.copyright {
+  text-align: center;
+  font-size: smaller;
+}
+
+@media (max-width: 649px) {
+  .burger {
+    display: block;
+  }
+
+  .navlink-wrapper {
+    background: var(--shadow);
+    position: absolute;
+    right: -100%;
+   display: none;
+    top: 145px;
+    width: 50%; 
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    padding: 0;
+    transition: all 400ms;
+    padding-left: 1rem;
+    border-top: var(--sunglow) 0.5rem solid;
+  } 
+  .nav-active {
+    display: flex;
+    right: 0;
+    height: 100vh;
+  }
+  .fa-github-square {
+    color: var(--cream);
+    font-size: 2rem;
+  }
+  .fa-linkedin {
+    color: var(--cream);
+    font-size: 2rem;
+  }
+
+  .fa-envelope {
+    color: var(--cream);
+    font-size: 2rem;
+  }
+
+  .project-section-card-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+  .projects-p {
+    text-align: center;
+  }
+
+  .about-card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#about-image {
+  max-width: 70%;
+  height: auto;
+  border-radius: 6rem;
+  padding: 5rem;
+  align-items: center;
+}
+}
+
+@media (min-width: 650px) {
+  .project-section-card-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+@media (min-width: 800px) {
+.navlink-wrapper {
+  width: 100%;
+}
+}
