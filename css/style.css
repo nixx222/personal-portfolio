@@ -301,6 +301,7 @@ i {
 .js-section-div {
 display: flex;
 justify-content: center;
+height: 93vh;
 }
 
 
