@@ -1,4 +1,4 @@
-import projectData from "/data/data.js"
+import projectData from "../data/data.js"
 console.log(projectData)
 
 const burger = document.querySelector(".burger i");
